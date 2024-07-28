@@ -1,7 +1,6 @@
 from PIL import Image
 filename = 'guess_who.jpg'
-img = Image.open('/Users/arnav007/Library/CloudStorage/Dropbox/Code/Guess Who/guess_who.jpg')
-# img = Image.open('C:/Users/Arnav/Desktop/code/Guess Who/guess_who.jpg')
+img = Image.open('guess_who.jpg')
 img.show()
 
 print("Welcome to Guess Who 1987! Please choose a character from the image and I will guarantee I will guess your character!")
